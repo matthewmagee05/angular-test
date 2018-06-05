@@ -1,5 +1,16 @@
 <p>
-  navbar does not work, {{name}}, {{name2}}!
-  <h1>BILLY DOES NOT RULE AS MUCH AS HE BELIEVES NGIf get wrecked.</h1>
-
+  navbar works, {{name}}, {{name2}}!
 </p>
+
+<p>{{value}}</p>
+<button (click)="incrementValue()">Click Me!</button><br />
+<input [(ngModel)]="someName" />
+<p>{{someName}}</p>
+
+<app-childbar [myVariable]="value"></app-childbar>
+<app-dead-child [name]="someName"></app-dead-child>
+<app-foobar [datVariable]="value"></app-foobar>
+
+What's your name?
+<input [(ngModel)]="childName" />
+<app-orphaned-child [orphanName]="childName"></app-orphaned-child> {{name}} is glad he's not an orphan
