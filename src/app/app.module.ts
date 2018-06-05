@@ -10,6 +10,9 @@ import { OtherchildComponent } from './otherchild/otherchild.component';
 import { OrphanedChildComponent } from './orphaned-child/orphaned-child.component';
 import { DeadChildComponent } from './dead-child/dead-child.component';
 import { FoobarComponent } from './foobar/foobar.component';
+import { TestrunComponent } from './testrun/testrun.component';
+import { HeroThingsComponent } from './hero-things/hero-things.component';
+import { JukeboxHeroComponent } from './jukebox-hero/jukebox-hero.component';
 
 
 @NgModule({
@@ -21,7 +24,10 @@ import { FoobarComponent } from './foobar/foobar.component';
     OtherchildComponent,
     OrphanedChildComponent,
     DeadChildComponent,
-    FoobarComponent
+    FoobarComponent,
+    TestrunComponent,
+    HeroThingsComponent,
+    JukeboxHeroComponent
   ],
   imports: [
     BrowserModule,
